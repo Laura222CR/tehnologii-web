@@ -4,10 +4,10 @@ import "./App.css";
 
 const App = () => {
     const [showInfo, setShowInfo] = useState(false);
-    const [buttonText, setButtonText] = useState("View Data");
+    const [buttonText, setButtonText] = useState("Afiseaza date");
     const handleButtonClick = () => {
         setShowInfo(!showInfo);
-        setButtonText(showInfo ? "View Data" : "Hide Data");
+        setButtonText(showInfo ? "Afiseaza date" : "Ascunde date");
     };
 
     return (
